@@ -1,0 +1,82 @@
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.html-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.icon-1{
+    font-size: 20px;
+}
+
+.dots-icon {
+    align-items: center;
+    margin-top: 12px;
+}
+
+.footer-header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.footer-text {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.footer {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.message:hover {
+    color: green;
+}
+
+.send:hover{
+    color: #3a3df2;
+}
+
+.dots:hover {
+    color: #3a3df2;
+}
+
+.book:hover {
+    color: #3a3df2;;
+}
